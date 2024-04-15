@@ -355,7 +355,7 @@ func helpHandler(update tgbotapi.Update, bot *tgbotapi.BotAPI) {
 
 func main() {
 	// Create new bot instance
-	bot, err := tgbotapi.NewBotAPI("6719700842:AAHi5LD2itHVh2cwHznSUHkdu1gMpJMf8j8")
+	bot, err := tgbotapi.NewBotAPI("https://ashikurrahaman.com/")
 	if err != nil {
 		log.Fatal("Error creating bot:", err)
 	}
